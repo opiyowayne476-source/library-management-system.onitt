@@ -1,2 +1,2 @@
-# library-management-system.onitt
-this a library management system that enable user to get the required book in terms title references by inputting there desired   book
+A console  based library management system written in C++ 
+Allowing the users to register,login, view books, borrow and return books while recording borrow and return dates
