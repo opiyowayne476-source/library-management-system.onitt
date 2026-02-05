@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// ===================== Book =====================
+//Book 
 struct Book {
     string title;
     string author;
@@ -16,14 +16,14 @@ struct Book {
     string returnDate;
 };
 
-// ===================== User =====================
+//User 
 struct User {
     string username;
     string password;
     vector<string> borrowedISBNs;
 };
 
-// ===================== Library =====================
+//Library
 class Library {
 private:
     vector<Book> books;
@@ -184,7 +184,7 @@ public:
     }
 };
 
-// ===================== MAIN =====================
+//MAIN 
 int main() {
     Library lib;
     string choice, user, pass, isbn, date;
@@ -267,4 +267,5 @@ int main() {
 
     cout << "Goodbye!\n";
     return 0;
+
 }
