@@ -34,9 +34,9 @@ public:
     Library() {
         currentUser = NULL;
 
-        addBook("Clean Code", "Robert C. Martin", "978-0132350884");
-        addBook("Design Patterns", "Gamma et al.", "978-0201633610");
-        addBook("The Pragmatic Programmer", "Andrew Hunt", "978-0201616224");
+        addBook("Developer Code", "Allan C. Mark", "978-01323534584");
+        addBook("Design Patterns", "Gilbert O. Alinko", "7878-020163610");
+        addBook("Antomy and Physciology", "Tyson Hannigton", "978-0201616264");
     }
 
     void addBook(const string& title, const string& author, const string& isbn) {
@@ -269,3 +269,4 @@ int main() {
     return 0;
 
 }
+
